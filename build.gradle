@@ -25,3 +25,11 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    rxJava = '2.1.14'
+    rxAndroid = '2.0.2'
+    retrofit = '2.3.0'
+    retrofitConverterGson = '2.1.0'
+    retrofitAdapterRx = '2.2.0'
+}
